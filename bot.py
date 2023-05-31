@@ -1,5 +1,6 @@
 import discord
 import player
+from priv import TOKEN
 
 async def send_message(message, user_message, dm_only):
     try: 
@@ -10,4 +11,12 @@ async def send_message(message, user_message, dm_only):
         # TODO
         # later add stuff to say what error is
 
+
 def run_discord_bot():
+    client = discord.Client(intents=discord.Intents.default())
+
+    @client.event
+    async def on_ready():
+        print('f{client.user} is now running!')
+
+    client.run(TOKEN)

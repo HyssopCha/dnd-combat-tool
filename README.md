@@ -14,6 +14,8 @@ game commands:
 player commands:
     !pc [add] ............... 
         do again to replace
+    !help
+        link to readme 
 bestiary commands:
     ![add] [name] [ac] []...................
     change/append

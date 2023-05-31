@@ -1,5 +1,5 @@
 # Private Information such as Data / Credientials / Etc
-priv/
+priv.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
