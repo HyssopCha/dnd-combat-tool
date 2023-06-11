@@ -9,17 +9,20 @@ game commands:
     ?[i|init|initiative] [_|([name]&&[n#|n_sep#|_])] [value|_]
         basically, if you just do ?i # or ?i you will roll ur pc initiative
     ?[r|rem|remove] [name]
+    ###
     ?[spell] [name]
         later problem
+    ###
 player commands:
-    ?pc [add] ............... 
+    ?pc [add|mod|modify] ............... 
         do again to replace
+
     ?start [name]
         start game
     ?help
         link to readme 
-bestiary commands:
-    ?[add] [name] [ac] []...................
+bestiary commands: 
+    ?[bestiary|beast|b] [add] [name] [ac] []...................
     change/append
     delete
     replicate
